@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68645E3F1EDB7E2A0061E867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68645E3E1EDB7E2A0061E867 /* AppDelegate.swift */; };
+		68645E411EDB7E2A0061E867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68645E401EDB7E2A0061E867 /* ViewController.swift */; };
+		68645E441EDB7E2A0061E867 /* Centro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68645E421EDB7E2A0061E867 /* Centro.xcdatamodeld */; };
+		68645E461EDB7E2A0061E867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68645E451EDB7E2A0061E867 /* Assets.xcassets */; };
+		68645E491EDB7E2A0061E867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68645E471EDB7E2A0061E867 /* Main.storyboard */; };
+		68645E541EDB7E2B0061E867 /* CentroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68645E531EDB7E2B0061E867 /* CentroTests.swift */; };
+		68645E5F1EDB7E2B0061E867 /* CentroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68645E5E1EDB7E2B0061E867 /* CentroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68645E501EDB7E2B0061E867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68645E331EDB7E2A0061E867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68645E3A1EDB7E2A0061E867;
+			remoteInfo = Centro;
+		};
+		68645E5B1EDB7E2B0061E867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68645E331EDB7E2A0061E867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68645E3A1EDB7E2A0061E867;
+			remoteInfo = Centro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68645E3B1EDB7E2A0061E867 /* Centro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Centro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68645E3E1EDB7E2A0061E867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68645E401EDB7E2A0061E867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68645E431EDB7E2A0061E867 /* Centro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Centro.xcdatamodel; sourceTree = "<group>"; };
+		68645E451EDB7E2A0061E867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68645E481EDB7E2A0061E867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68645E4A1EDB7E2A0061E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68645E4F1EDB7E2B0061E867 /* CentroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68645E531EDB7E2B0061E867 /* CentroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroTests.swift; sourceTree = "<group>"; };
+		68645E551EDB7E2B0061E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68645E5A1EDB7E2B0061E867 /* CentroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68645E5E1EDB7E2B0061E867 /* CentroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentroUITests.swift; sourceTree = "<group>"; };
+		68645E601EDB7E2B0061E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68645E381EDB7E2A0061E867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E4C1EDB7E2B0061E867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E571EDB7E2B0061E867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68645E321EDB7E2A0061E867 = {
+			isa = PBXGroup;
+			children = (
+				68645E3D1EDB7E2A0061E867 /* Centro */,
+				68645E521EDB7E2B0061E867 /* CentroTests */,
+				68645E5D1EDB7E2B0061E867 /* CentroUITests */,
+				68645E3C1EDB7E2A0061E867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68645E3C1EDB7E2A0061E867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68645E3B1EDB7E2A0061E867 /* Centro.app */,
+				68645E4F1EDB7E2B0061E867 /* CentroTests.xctest */,
+				68645E5A1EDB7E2B0061E867 /* CentroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68645E3D1EDB7E2A0061E867 /* Centro */ = {
+			isa = PBXGroup;
+			children = (
+				68645E3E1EDB7E2A0061E867 /* AppDelegate.swift */,
+				68645E401EDB7E2A0061E867 /* ViewController.swift */,
+				68645E451EDB7E2A0061E867 /* Assets.xcassets */,
+				68645E471EDB7E2A0061E867 /* Main.storyboard */,
+				68645E4A1EDB7E2A0061E867 /* Info.plist */,
+				68645E421EDB7E2A0061E867 /* Centro.xcdatamodeld */,
+			);
+			path = Centro;
+			sourceTree = "<group>";
+		};
+		68645E521EDB7E2B0061E867 /* CentroTests */ = {
+			isa = PBXGroup;
+			children = (
+				68645E531EDB7E2B0061E867 /* CentroTests.swift */,
+				68645E551EDB7E2B0061E867 /* Info.plist */,
+			);
+			path = CentroTests;
+			sourceTree = "<group>";
+		};
+		68645E5D1EDB7E2B0061E867 /* CentroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68645E5E1EDB7E2B0061E867 /* CentroUITests.swift */,
+				68645E601EDB7E2B0061E867 /* Info.plist */,
+			);
+			path = CentroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68645E3A1EDB7E2A0061E867 /* Centro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68645E631EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "Centro" */;
+			buildPhases = (
+				68645E371EDB7E2A0061E867 /* Sources */,
+				68645E381EDB7E2A0061E867 /* Frameworks */,
+				68645E391EDB7E2A0061E867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Centro;
+			productName = Centro;
+			productReference = 68645E3B1EDB7E2A0061E867 /* Centro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68645E4E1EDB7E2B0061E867 /* CentroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68645E661EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "CentroTests" */;
+			buildPhases = (
+				68645E4B1EDB7E2B0061E867 /* Sources */,
+				68645E4C1EDB7E2B0061E867 /* Frameworks */,
+				68645E4D1EDB7E2B0061E867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68645E511EDB7E2B0061E867 /* PBXTargetDependency */,
+			);
+			name = CentroTests;
+			productName = CentroTests;
+			productReference = 68645E4F1EDB7E2B0061E867 /* CentroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68645E591EDB7E2B0061E867 /* CentroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68645E691EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "CentroUITests" */;
+			buildPhases = (
+				68645E561EDB7E2B0061E867 /* Sources */,
+				68645E571EDB7E2B0061E867 /* Frameworks */,
+				68645E581EDB7E2B0061E867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68645E5C1EDB7E2B0061E867 /* PBXTargetDependency */,
+			);
+			name = CentroUITests;
+			productName = CentroUITests;
+			productReference = 68645E5A1EDB7E2B0061E867 /* CentroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68645E331EDB7E2A0061E867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kyle Thompson";
+				TargetAttributes = {
+					68645E3A1EDB7E2A0061E867 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					68645E4E1EDB7E2B0061E867 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68645E3A1EDB7E2A0061E867;
+					};
+					68645E591EDB7E2B0061E867 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68645E3A1EDB7E2A0061E867;
+					};
+				};
+			};
+			buildConfigurationList = 68645E361EDB7E2A0061E867 /* Build configuration list for PBXProject "Centro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68645E321EDB7E2A0061E867;
+			productRefGroup = 68645E3C1EDB7E2A0061E867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68645E3A1EDB7E2A0061E867 /* Centro */,
+				68645E4E1EDB7E2B0061E867 /* CentroTests */,
+				68645E591EDB7E2B0061E867 /* CentroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68645E391EDB7E2A0061E867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68645E461EDB7E2A0061E867 /* Assets.xcassets in Resources */,
+				68645E491EDB7E2A0061E867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E4D1EDB7E2B0061E867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E581EDB7E2B0061E867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68645E371EDB7E2A0061E867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68645E441EDB7E2A0061E867 /* Centro.xcdatamodeld in Sources */,
+				68645E411EDB7E2A0061E867 /* ViewController.swift in Sources */,
+				68645E3F1EDB7E2A0061E867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E4B1EDB7E2B0061E867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68645E541EDB7E2B0061E867 /* CentroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68645E561EDB7E2B0061E867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68645E5F1EDB7E2B0061E867 /* CentroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68645E511EDB7E2B0061E867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68645E3A1EDB7E2A0061E867 /* Centro */;
+			targetProxy = 68645E501EDB7E2B0061E867 /* PBXContainerItemProxy */;
+		};
+		68645E5C1EDB7E2B0061E867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68645E3A1EDB7E2A0061E867 /* Centro */;
+			targetProxy = 68645E5B1EDB7E2B0061E867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68645E471EDB7E2A0061E867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68645E481EDB7E2A0061E867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68645E611EDB7E2B0061E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68645E621EDB7E2B0061E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		68645E641EDB7E2B0061E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Centro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.Centro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68645E651EDB7E2B0061E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Centro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.Centro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68645E671EDB7E2B0061E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CentroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.CentroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centro.app/Contents/MacOS/Centro";
+			};
+			name = Debug;
+		};
+		68645E681EDB7E2B0061E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CentroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.CentroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Centro.app/Contents/MacOS/Centro";
+			};
+			name = Release;
+		};
+		68645E6A1EDB7E2B0061E867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CentroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.CentroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Centro;
+			};
+			name = Debug;
+		};
+		68645E6B1EDB7E2B0061E867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CentroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KTInc.CentroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Centro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68645E361EDB7E2A0061E867 /* Build configuration list for PBXProject "Centro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68645E611EDB7E2B0061E867 /* Debug */,
+				68645E621EDB7E2B0061E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68645E631EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "Centro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68645E641EDB7E2B0061E867 /* Debug */,
+				68645E651EDB7E2B0061E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68645E661EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "CentroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68645E671EDB7E2B0061E867 /* Debug */,
+				68645E681EDB7E2B0061E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68645E691EDB7E2B0061E867 /* Build configuration list for PBXNativeTarget "CentroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68645E6A1EDB7E2B0061E867 /* Debug */,
+				68645E6B1EDB7E2B0061E867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68645E421EDB7E2A0061E867 /* Centro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68645E431EDB7E2A0061E867 /* Centro.xcdatamodel */,
+			);
+			currentVersion = 68645E431EDB7E2A0061E867 /* Centro.xcdatamodel */;
+			path = Centro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68645E331EDB7E2A0061E867 /* Project object */;
+}
